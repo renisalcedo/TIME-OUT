@@ -35,6 +35,15 @@ body {
   background: linear-gradient(to left, #1D2B64 , #F8CDDA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
 }
+video#bgvid{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background: url(video-cover.jpg) no-repeat;
+    background-size: cover;
+
+}
 body {
   color: #fff;
   text-align: center;
