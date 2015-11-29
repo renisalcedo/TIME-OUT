@@ -49,7 +49,7 @@ video#bgvid{
     background-size: cover;
 
 }
-body {
+#downArrow{
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
@@ -79,8 +79,8 @@ body {
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 20;
-  color: #555;
+  font-size: 25;
+  color: #5bc0de;
 }
 
 .masthead-nav > li {
@@ -94,20 +94,19 @@ body {
   padding-left: 0;
   font-size: 22px;
   font-weight: bold;
-  color: #555;
+  color: #5bc0de;
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #777;
-  border-bottom-color: rgba(255,255,255,.25);
+  border-bottom-color: #222;
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #777;
-  border-bottom-color: #fff;
+  color: #5bc0de;
+  border-bottom-color: #222;
 }
 
 @media (min-width: 768px) {
