@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #555;
 }
 /* Custom default button */
 .btn-default,
@@ -17,7 +17,9 @@ a:hover {
   background-color: #fff;
   border: 1px solid #fff;
 }
-
+*{
+  font-family: 'Raleway', sans-serif;
+}
 
 /*
  * Base structure
@@ -80,6 +82,8 @@ body {
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 20;
+  color: #555;
 }
 
 .masthead-nav > li {
@@ -91,22 +95,21 @@ body {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+  color: #555;
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #a9a9a9;
+  border-bottom-color: #777;
   border-bottom-color: rgba(255,255,255,.25);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
+  color: #777;
   border-bottom-color: #fff;
 }
 
