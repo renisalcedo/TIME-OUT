@@ -1,14 +1,19 @@
 var main = function(){
-<<<<<<< HEAD
-    $()     
-=======
-    $('h1').hover(function(){
+    $('#first-body').hover(function(){
         $('nav').fadeOut(1500);
+        $('.content').slideDown(1000);
     });
+    
     $('video').hover(function(){
-       $('nav').fadeIn(1500); 
+       $('nav').fadeIn(1500);
+       $('.content').hide();
     });
->>>>>>> body
+    
+    $('#downArrow').click(function(){
+        window.location = '#first-body';
+        $('nav').fadeOut(1500);
+        $('.content').slideDown(1000);
+    });
 };
 
 $(document).ready(main);
