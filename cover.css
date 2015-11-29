@@ -32,9 +32,12 @@ body {
       gradient from http://uigradients.com/
   */
   
-  background: #1D2B64; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #1D2B64 , #F8CDDA); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #1D2B64 , #F8CDDA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #ECE9E6; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        
         
 }
 video#bgvid{
@@ -70,12 +73,6 @@ body {
   margin-left: auto;
 }
 
-/* Padding for spacing */
-.inner {
-  padding: 30px;
-}
-
-
 /*
  * Header
  */
@@ -95,7 +92,7 @@ body {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   color: #555;
   border-bottom: 2px solid transparent;
