@@ -10,9 +10,16 @@ var main = function(){
     });
     
     $('#downArrow').click(function(){
-        window.location = '#first-body';
-        $('nav').fadeOut(1500);
-        $('.content').slideDown(1000);
+       $('nav').fadeOut(1500);
+       $('.content').slideDown(1000);
+       
+       var first = window.location = '#first-body';
+       var second = window.location = '#second-body';
+       var third = window.location = '#third-body';
+       
+       if(window.location == first)
+        window.location = second;
+        
     });
 };
 
