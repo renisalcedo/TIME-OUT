@@ -1,3 +1,10 @@
+// BUG, the arrow is going straigh to third skipping 1st
+// More content should be added by tonigh in the html
+// If any css can be improve, go for it
+// Decide what to do with the links
+// Menu link: add a gallery of photos
+
+
 var main = function(){
     $('#first-body').hover(function(){
         $('nav').fadeOut(1500);
@@ -13,13 +20,7 @@ var main = function(){
        $('nav').fadeOut(1500);
        $('.content').slideDown(1000);
        
-       var first = window.location = '#first-body';
-       var second = window.location = '#second-body';
-       var third = window.location = '#third-body';
-       
-       if(window.location == first)
-        window.location = second;
-        
+       window.location = '#first-body';
     });
 };
 

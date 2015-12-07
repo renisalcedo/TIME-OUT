@@ -20,7 +20,9 @@ a:hover {
 *{
   font-family: 'Raleway', sans-serif;
 }
-
+span{
+  color: #B2DEED;
+}
 /*
  * Base structure
  */
