@@ -8,12 +8,17 @@
 var main = function(){
     $('#first-body').hover(function(){
         $('nav').fadeOut(1500);
-        $('.content').slideDown(1000);
+        $('.content').slideDown(1500);
+        $('#second-body').slideDown(1500);
+        $('#third-body').slideDown(1500);
     });
+    
     
     $('video').hover(function(){
        $('nav').fadeIn(1500);
        $('.content').hide();
+       $('#second-body').hide();
+       $('#third-body').hide();
     });
     
     $('#downArrow').click(function(){
