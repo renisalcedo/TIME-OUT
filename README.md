@@ -1,1 +1,1 @@
-# School_Project
+# Entrepreneruship presentation
