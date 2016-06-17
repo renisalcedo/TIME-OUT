@@ -174,3 +174,8 @@ video#bgvid{
     width: 700px;
   }
 }
+
+#myCarousel img {
+  width: 35em;
+  height: 20em;
+}
