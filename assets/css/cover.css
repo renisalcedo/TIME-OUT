@@ -186,7 +186,8 @@ video#bgvid{
 }
 #myCarousel img {
   width: 100%;
-  height: 27.4em;
+  height: 36.4em;
+  opacity: .8;
 }
 
 .carousel-inner h1{
