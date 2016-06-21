@@ -6,7 +6,7 @@
 
 
 var main = function(){
-    $('.site-wrapper').hover(function(){
+    $('#content').hover(function(){
         $('nav').fadeOut(1500);
         $('.content').slideDown(1500);
         $('#second-body').slideDown(1500);
